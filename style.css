@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Libre+Baskerville&display=swap');
+
+body {
+    font-family: 'Asap', sans-serif;
+    background-color: rgb(225, 240, 243);
+}
+
+.top {
+    /*Make it fill the full top area*/
+
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    background-color: rgb(244, 209, 157);
+}
+
+.explaine {
+    display: flex;
+    margin: 50px;
+}
+
+.background {
+    position: relative;
+    top: 10px;
+    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px black solid;
+}
+
+.background h1 {
+    font-weight: bold;
+}
+
+article,
+li {
+    font-weight: bold;
+}
+
+.ps {
+    padding: 30px;
+    position: relative;
+    top: 10px;
+    border: 2px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.haf-with {
+    width: 85%;
+}
+
+.ps input {
+    outline: none;
+    border: none;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    background: none;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.ps:hover {
+    background-color: rgb(184, 248, 193);
+}
+
+.background:hover {
+    background-color: rgb(184, 248, 193);
+}
+
+.more-info {
+    /*Make it at the bottom*/
+
+    border: 2px solid black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    padding: 10px;
+}
+
+.more-info:hover {
+    background-color: rgb(184, 248, 193);
+}
